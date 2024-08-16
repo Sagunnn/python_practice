@@ -115,17 +115,31 @@ print('--'*30)
 # list_dict=dict(zip(list_questions, list_answer))
 # print(list_dict)
 
-list_questions=[]
-list_answer=[]
-continue_loop="y"
+# list_questions=[]
+# list_answer=[]
+# continue_loop="y"
 
-while(continue_loop.lower()=="y"):
-    list_questions.append(input('Enter Question'))
-    list_answer.append(input('Enter Answer'))
-    continue_loop=input('Do you want to Continue Y/N?')
+# while(continue_loop.lower()=="y"):
+#     list_questions.append(input('Enter Question'))
+#     list_answer.append(input('Enter Answer'))
+#     continue_loop=input('Do you want to Continue Y/N?')
 
-list_dict=dict(zip(list_questions,list_answer))
-print(list_dict)
+# list_dict=dict(zip(list_questions,list_answer))
+# print(list_dict)
+    
+
+
+# def reverse(string):
+#     if string == "Apple":  # Special case to check if the string is "Apple"
+#         return string      # If true, return the string without reversing
+#     else:
+#         # Recursively reverse the string by calling reverse on the substring
+#         # excluding the first character, and then adding the first character at the end
+#         return reverse(string[1:]) + string[0]
+
+# string = "Apple"  # The input string
+# print(reverse(string))  # Prints the result of the reverse function
+
     
     
 
